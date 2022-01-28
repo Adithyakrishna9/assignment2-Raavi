@@ -36,3 +36,15 @@ Below table repreents the Sports Activities that are being held in NWMSU and the
 | Badminton            | Activity Arena CH213   |    05$ |
 | Tennis               | Activity Arena CH216   |    05$ |
 
+
+---
+
+# PithyQuotes
+>    To improve is to change; to be perfect is to change often;
+>>   *Winston Churchill*
+
+>   Change Begins at the end of your comfort zone ;
+>>   *Roy T.Bennett*
+  True life is lived when tiny changes occur
+   *Lee Telstey*
+ 
