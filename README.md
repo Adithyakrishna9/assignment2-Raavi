@@ -7,10 +7,17 @@ This is my Labcycle2 and this is repository
    ---
 
   ### Horizontal rule has been applied.
-    Kansas international air port is located near to my food location.
+ Kansas international air port is located near to my food location.
   1.  step1 Start from Mcdonalds Maryville 64468.
   2.  step2 Drive fror 40 minutes on national highwat i-29.
   3.  step3 Fallow the instructions and stay on high way for 19 miles.
   4.  step4 And after 40 minutes you will encounter a kansas city and airport road diversions.
   5.  step5 Take diversiion and go to the airportroad and stay on it for 15 minutes.
   6.  step6  You will reach the destination as preceded.
+
+  * Go to the McDonalds.
+  * Check the Menu
+  * Pick the items 
+     * Veg and Non-veg.
+     * Go to non-veg
+     * Order the familypack spicy deluxe chicken burger with ranch.
