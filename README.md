@@ -22,3 +22,17 @@ This is my Labcycle2 and this is repository
      * Go to non-veg
      * Order the familypack spicy deluxe chicken burger with ranch.
 [AboutMe](https://github.com/Adithyakrishna9/assignment2-Raavi/blob/main/AboutMe.md)
+
+---
+
+# SportsTable.
+Below table repreents the Sports Activities that are being held in NWMSU and the event name is CATPAWS and the winner gets the BEARCAT title and the games in this event are cricket,BasketBall,Bdminton,Tennis and their locations respectfully StPeters,VolksCenter,Activity Arena CH123,Activity Arena CH216 and Additional costs for the Requirements that which are provided by college are gone cost  20,10,05,05 respectively.
+ 
+
+|  SportsActivity      |       Location         | Additional costs for Requirements |
+| -------------------- | ---------------------- | --------------------------------: |
+| Cricket              | St Peters PT 213       |    20$ |
+| BasketBall           | Volks Center VK 203    |    10$ |
+| Badminton            | Activity Arena CH213   |    05$ |
+| Tennis               | Activity Arena CH216   |    05$ |
+
