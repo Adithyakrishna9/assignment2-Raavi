@@ -48,3 +48,97 @@ Below table repreents the Sports Activities that are being held in NWMSU and the
   True life is lived when tiny changes occur
    *Lee Telstey*
  
+ ---
+
+ # Algorithm Fetching Link
+
+ > Graph traversal is a technique to visit the each nodes of a graph G. It is also use to calculate the order of vertices in traverse process. We visit all the nodes starting from one node which is connected to each other without going into loop.
+  Lets go to the link <https://quescol.com/data-structure/graph-traversal-in-data-structure#:~:text=Graph%20traversal%20is%20a%20technique,other%20without%20going%20into%20loop.>
+
+```
+vector<vector<int>> adj;  // adjacency list representation
+int n; // number of nodes
+int s; // source vertex
+
+queue<int> q;
+vector<bool> used(n);
+vector<int> d(n), p(n);
+
+q.push(s);
+used[s] = true;
+p[s] = -1;
+while (!q.empty()) {
+    int v = q.front();
+    q.pop();
+    for (int u : adj[v]) {
+        if (!used[u]) {
+            used[u] = true;
+            q.push(u);
+            d[u] = d[v] + 1;
+            p[u] = v;
+        }
+    }
+}
+```
+Source code Location <https://cp-algorithms.com/graph/breadth-first-search.html>
+
+ >  In a graph, a vertex is called an articulation point if removing it and all the edges associated with it results in the increase of the number of connected components in the graph.
+ >  An edge in an undirected connected graph is a bridge iff removing it disconnects the graph. For a disconnected undirected graph, definition is similar, a bridge is an edge removing which increases number of disconnected components.  
+  Lets go the link for graphs  <https://www.geeksforgeeks.org/bridge-in-a-graph/>
+  Lets go to the link bridges and articulation points <https://www.hackerearth.com/practice/algorithms/graphs/articulation-points-and-bridges/tutorial/>
+
+  ```
+  int n;
+vector<int> g[MAXN] ;
+bool used[MAXN] ;
+vector<int> comp ;
+
+void dfs(int v) {
+    used[v] = true ;
+    comp.push_back(v);
+    for (size_t i = 0; i < (int) g[v].size(); ++i) {
+        int to = g[v][i];
+        if (!used[to])
+            dfs(to);
+    }
+}
+```
+
+Source code Location <https://cp-algorithms.com/graph/search-for-connected-components.html>
+
+  > In graph theory, the shortest path problem is the problem of finding a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized.
+ Lets go to the Link<https://en.wikipedia.org/wiki/Shortest_path_problem#:~:text=In%20graph%20theory%2C%20the%20shortest,its%20constituent%20edges%20is%20minimized.>
+
+ ```
+ const int INF = 1000000000;
+vector<vector<pair<int, int>>> adj;
+void dijkstra(int s, vector<int> & d, vector<int> & p) {
+    int n = adj.size();
+    d.assign(n, INF);
+    p.assign(n, -1);
+    vector<bool> u(n, false);
+    d[s] = 0;
+    for (int i = 0; i < n; i++) {
+        int v = -1;
+        for (int j = 0; j < n; j++) {
+            if (!u[j] && (v == -1 || d[j] < d[v]))
+                v = j;
+        }
+        if (d[v] == INF)
+            break;
+        u[v] = true;
+        for (auto edge : adj[v]) {
+            int to = edge.first;
+            int len = edge.second;
+            if (d[v] + len < d[to]) {
+                d[to] = d[v] + len;
+                p[to] = v; }}}}
+```
+ SourceCode <https://cp-algorithms.com/graph/dijkstra.html>
+ 
+
+
+
+
+
+
